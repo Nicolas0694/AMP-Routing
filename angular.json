@@ -25,7 +25,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "baseHref": "/AMP-Routing/",
+             "repo": "https://github.com/Nicolas0694/AMP-Routing.git"
           },
           "configurations": {
             "production": {
@@ -93,7 +95,11 @@
               "src/styles.css"
             ],
             "scripts": []
+            
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
